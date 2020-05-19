@@ -5,7 +5,7 @@ const path = require('path');
 app.get('/',(request, response)=>{
   return response.json({
     evento: 'weslleson souza Silva',
-    aluna: 'cris souza silvaa'
+    aluna: 'cris souza silva lindaa'
   });
 });
 
