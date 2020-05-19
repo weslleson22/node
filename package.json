@@ -11,10 +11,12 @@
     "test": "node test.js"
   },
   "dependencies": {
+    "celebrate": "^12.1.1",
     "cors": "^2.8.5",
     "ejs": "^2.7.4",
     "express": "^4.17.1",
-    "knex": "^0.21.1"
+    "knex": "^0.21.1",
+    "sqlite3": "^4.2.0"
   },
   "devDependencies": {
     "request": "^2.81.0",
