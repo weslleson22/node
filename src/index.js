@@ -6,7 +6,7 @@ app.post('/users',(request, response)=>{
     
   return response.json({
     evento: 'weslleson souza Silva',
-    aluna: 'cris souza silva lindaa'
+    aluna: 'cris souza silva '
   });
 });
 

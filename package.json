@@ -7,12 +7,14 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
     "test": "node test.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "ejs": "^2.7.4",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "knex": "^0.21.1"
   },
   "devDependencies": {
     "request": "^2.81.0",
